@@ -17,8 +17,8 @@ class SendCommand extends BaseCommand
         $this
             ->setName('carlosio:whatsapp:send')
             ->setDescription('Send message to phone number')
-            ->addArgument('receiver', InputArgument::REQUIRED, 'Receiver telephone number')
-            ->addArgument('message',  InputArgument::REQUIRED, 'Message content')
+            ->addArgument('receiver', InputArgument::REQUIRED, '491772496556')
+            ->addArgument('message',  InputArgument::REQUIRED, 'message')
         ;
     }
 
